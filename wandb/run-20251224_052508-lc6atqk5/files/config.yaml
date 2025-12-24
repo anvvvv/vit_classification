@@ -1,0 +1,87 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            lbl3f22zn2t819n99ezqbixf60o7lyic:
+                codePath: my_project/train_vit_buttfly.py
+                codePathLocal: train_vit_buttfly.py
+                cpu_count: 28
+                cpu_count_logical: 56
+                cudaVersion: "12.5"
+                disk:
+                    /:
+                        total: "3936820731904"
+                        used: "3028895350784"
+                email: kashaku8@gmail.com
+                executable: /opt/conda/envs/vit/bin/python
+                git:
+                    commit: 0b7518ef45aa91ca69f2f45dae889a8be51cde7e
+                    remote: https://github.com/lucidrains/vit-pytorch.git
+                gpu: NVIDIA GeForce RTX 3080 Ti
+                gpu_count: 4
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 10240
+                      memoryTotal: "12884901888"
+                      name: NVIDIA GeForce RTX 3080 Ti
+                      uuid: GPU-e9417874-fa87-330f-93bb-d5baa05a2b38
+                    - architecture: Ampere
+                      cudaCores: 10496
+                      memoryTotal: "25769803776"
+                      name: NVIDIA GeForce RTX 3090
+                      uuid: GPU-f6ac36e8-facf-3efb-5e83-74cd1c69664a
+                    - architecture: Ampere
+                      cudaCores: 10496
+                      memoryTotal: "25769803776"
+                      name: NVIDIA GeForce RTX 3090
+                      uuid: GPU-db55f36b-1cbf-83f5-b099-37ca5fe22867
+                    - architecture: Ampere
+                      cudaCores: 10240
+                      memoryTotal: "12884901888"
+                      name: NVIDIA GeForce RTX 3080 Ti
+                      uuid: GPU-b2af4e25-c649-58de-a3fd-5de8973c7a8d
+                host: a4238321bc5e
+                memory:
+                    total: "67376066560"
+                os: Linux-6.2.0-39-generic-x86_64-with-glibc2.35
+                program: /projects_lea/vit-pytorch/my_project/train_vit_buttfly.py
+                python: CPython 3.10.19
+                root: /projects_lea/vit-pytorch/my_project
+                startedAt: "2025-12-24T05:25:08.113709Z"
+                writerId: lbl3f22zn2t819n99ezqbixf60o7lyic
+        m: []
+        python_version: 3.10.19
+        t:
+            "1":
+                - 1
+                - 41
+                - 49
+                - 71
+            "2":
+                - 1
+                - 41
+                - 49
+                - 71
+            "3":
+                - 2
+                - 3
+                - 16
+                - 17
+            "4": 3.10.19
+            "5": 0.23.1
+            "12": 0.23.1
+            "13": linux-x86_64
+batch_size:
+    value: 32
+epochs:
+    value: 10
+image_size:
+    value: 224
+learning_rate:
+    value: 0.0003
+model_dim:
+    value: 128
+num_classes:
+    value: 75
+patch_size:
+    value: 16
